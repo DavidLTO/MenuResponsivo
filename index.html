@@ -4,8 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="assets/js/script.js"></script>
         <link rel="stylesheet" href="assets/css/style.css">    
-        <title>Menu Responsivo 0.2</title>
+        <title>Menu responsivo 1.0</title>
     </head>
 
     <body>
@@ -26,8 +27,23 @@
                 <div class="login-button">
                     <button><a href="#">Login</a></button>
                 </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+                </div>
             </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>  
+                
+                <div class="login-button">
+                    <button><a href="#">Login</a></button>
+                </div>
+            </div>
         </header>        
     </body>
-
 </html>
